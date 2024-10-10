@@ -1,0 +1,260 @@
+*
+{
+    margin: 0;
+    padding: o;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+    
+}
+.section1
+{
+    
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.section1 .header
+{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./Images/netflix\ new.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:0.625rem 8% ;
+    /* position: absolute; */
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3125rem 0 ;
+    margin-top: -0.5rem;
+    background-color: transparent;
+
+}
+.logo
+{
+    width: 9.375rem;
+    cursor: pointer;   
+    background-color: transparent; 
+}
+nav button
+{
+    border: 0;
+    outline: 0;
+    background:#E50914;
+    color: #fff;
+    padding: 8px 20px;
+    font-size:15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor:pointer ;
+}
+ .content
+{
+    
+    /* top: 50%;
+    left: 50%; */
+    text-align:center ;
+    margin-top: 3.25rem;
+    /* transform: translate(-50%, -50%); */
+    color: #fff;
+}
+.content h1
+{
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 900;
+    
+}
+.content h3
+{
+    font-weight:400 ;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 400px;
+    height: 60px; 
+    padding: 10px; 
+    border: 2px solid transparent; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.237); 
+    transition: border-color 0.3s; 
+    margin-top: 0.8rem;
+    
+}
+input[type="email"]:focus {
+    border-color:white; 
+    outline: none; 
+}
+
+
+.content .submit
+{
+    
+    background: #db0001;
+    border: 0;
+    width: 190px;
+    outline: 0;
+    color: #fff;
+    font-size: 1.125rem;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius:0.2rem;
+    margin-top: 0.5rem;
+}
+
+.section2
+{
+    background-color: black;
+}
+.section2 h2
+{
+    
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.dropdown
+{
+    display: flex;
+    padding-left: 30px;
+    color: #fff;
+    border: #fff;
+    position: relative;
+    
+}
+
+
+.top-ten {
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+    overflow-x: hidden;
+    /* overflow-x: scroll; */
+    margin-top: 50px;
+    padding: 30px;
+    /* grid-template-rows: repeat(4fr, 1fr); */
+}
+
+.images-box img {
+     
+    max-width: 500px; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    padding-left: 30px;
+    
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .images-box img {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .images-box img {
+        grid-template-columns: 1fr; /* One column on very small screens */
+    }
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.card
+{
+    height: 400px;
+    background-image: linear-gradient(140deg, #192247 0%,#210e17 96.86%);
+    color: white;
+}
+.card h5
+{
+    font-size: 20px;
+    margin: 12px 0px 0px;
+    color: white;
+}
+.card p
+{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.images
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+.section3
+{
+    background-color: black;
+}
+.general
+{
+    padding: 20px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.general h1
+{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+.text
+{
+   text-align: center;
+   padding-top: 20px;
+   color: #fff;
+   font-weight: 200;
+   font-size: 18px;
+}
+.both .submit
+{
+    
+    background: #db0001;
+    border: 0;
+    width: 190px;
+    outline: 0;
+    color: #fff;
+    font-size: 1.125rem;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius:0.2rem;
+    margin-top: 0.5rem;
+}
+form
+{
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+footer ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+    align-items: center;
+
+}
+footer ul li
+{
+    color: #fff;
+}
+
+
+
